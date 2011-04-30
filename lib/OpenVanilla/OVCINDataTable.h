@@ -31,6 +31,7 @@
 #include <string>
 #include <vector>
 #include <cstdlib>
+#include <cstring>
 #include <iostream>
 
 #include "OVFileHelper.h"
