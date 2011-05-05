@@ -52,9 +52,9 @@ int main(int argc, char *argv[])
         bool inBig5 = (originalBig5Set.find((*i).second) !=
             originalBig5Set.end());
         
-        cout << (*i).second << "," << bpmf.composedString() << ","
-            << bpmf.HanyuPinyinString(true, true) << ","
-            << (*i).first << ","
+        cout << (*i).second << " " << bpmf.composedString() << " "
+            << bpmf.HanyuPinyinString(true, true) << " "
+            << (*i).first << " "
             << (inBig5 ? "big5" : "ext")
             << endl;
     }
